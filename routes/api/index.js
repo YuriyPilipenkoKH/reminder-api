@@ -1,9 +1,9 @@
 
 const authRouter = require('./auth')
-// const usesRouter = require('./users')
+const usersRouter = require('./users')
 
 module.exports = {
 
     authRouter,
-    // usesRouter,
+    usersRouter,
 }

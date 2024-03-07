@@ -1,9 +1,9 @@
-const UserModel = require('./user')
+const User = require('./user')
 const registerSchema= require('./register')
 const loginSchema= require('./login')
 
 module.exports =  {
-   UserModel,
+   User,
    registerSchema ,
    loginSchema,
 }
